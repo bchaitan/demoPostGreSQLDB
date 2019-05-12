@@ -1,0 +1,7 @@
+---
+applications:
+- name: demoPostGreSQLDB
+path: target\demoPostGreSQLDB-0.0.1-SNAPSHOT.jar
+buildpack: java_buildpack
+services:
+- mypostgresql
